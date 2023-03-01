@@ -1,0 +1,53 @@
+@import url('https //fonts.googleapis.com/css family=montserrat &display=swap');
+
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background-image: url('./assets/images/imagem.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 12.5rem;
+    padding-left: 7rem;
+
+}
+
+h1 {
+    
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    
+}
+
+span{
+    font-size: 40px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+
+}
+
+a{  
+    color: #FFFFFF;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, #C018DB, #DB00FF
+, #930BFF
+);
+padding: 1rem 2rem;
+border-radius: 7px;
+
+}
+
+
